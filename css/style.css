@@ -1,0 +1,797 @@
+hr{
+    color: lightgray;
+}
+nav div{
+    margin: 10px;
+    margin-left: 30px;
+}
+nav{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: relative;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: auto;
+    width: 68%;
+}
+header a{
+    font-weight: bold;
+    font-size: 14px;
+}
+header .page{
+    color: #7A7A7A;
+    text-decoration: none;
+    margin: auto;
+}
+header a:hover{
+    color: black;
+}
+header .button a{
+    margin: auto;
+    display: grid;
+    text-decoration: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 6/7;
+}
+header .button{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+header .button div{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 14px;
+    grid-column: 5/6;
+}
+header .button div:hover{
+    border: solid gray 1px;/*needed*/
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+body{
+    position: relative;
+    margin: 0;
+}
+.content1{
+    background-image: url("../images/ecourse-template-hero-gradient-bg.svg");
+    background-repeat: no-repeat;
+}
+.main{
+    /* border: solid black 1px; */
+    font-family: Inter;
+    padding: 1%;
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 3fr 1fr 3fr;
+}
+.learn{
+    /* border: solid black 1px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.learn h1{
+    font-family: Lexend;
+    font-size: 72px;
+}
+.learn div{
+    /* border: solid black 1px; */
+    margin: 0%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+}
+.main .learn a{
+    padding: 1%;
+    margin-top: -15%;
+    text-align: center;
+    text-decoration: none;
+}
+.main .learn a div{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 20%;
+    width: 30%;
+}
+.main .learn a div:hover{
+    border: solid gray 1px;/*needed*/
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+.learn h1{
+    max-height: 100px;
+    font-family: Lexend;
+    color: #131416;
+    font-size: 72px;
+}
+.learn p{
+    width: 80%;
+    font-size: 22px;
+    color: #7A7A7A;
+}
+.learn .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stats{
+    border: solid black 1px;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    height: 70%;
+    grid-template-columns: 1fr 1fr;
+}
+.numbers{
+    /* border: solid black 1px; */
+    padding-left: 1%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.numbers .col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.numbers h1{
+    border: solid #131416 1px;
+    margin: none;
+    padding: 0;
+    color: #131416;
+    font-size: 40px;
+}
+.numbers h4{
+    border: solid #131416 1px;
+    margin-top: 0;
+    padding: 0;
+    color: #7A7A7A;
+    font-size: 13px;
+}
+.logos{
+    /* border: solid black 1px; */
+    padding-left: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.logos h1{
+    text-align: left;
+    font-size: 14px;
+    color: #131416;
+    font-family: Inter, sans-serif;
+    letter-spacing: 3px;
+}
+.logos img{
+    margin-top: 5%;
+    padding-top: 5%;
+}
+.about{
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about .author{
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 3fr 1fr;
+}
+.about .image{
+    position: relative;
+}
+.about i{
+    color: #131416;
+    font-size: 20px;
+    margin: 8px;
+}
+.about .icons{
+    display: grid;
+    position: absolute;
+    padding: 1%;
+    top: 45;
+    left: 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.author h5{
+    color: #131416;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Inter;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.author h2{
+    color: #131416;
+    font-size: 40px;
+    width: 80%;
+    font-weight: 1000;
+    font-family: Inter;
+}
+.author p{
+    width: 80%;
+    color: #131416;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: Inter;
+
+}
+.author a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Inter;
+    color: #131416;
+    font-size: 14px;
+}
+.author i{
+    font-size: 15px;
+}
+.content2{
+    display: grid;
+    margin: auto;
+    width: 70%;
+    font-family: Inter;
+    grid-template-rows: 0.5fr 1fr 0.5fr 7fr 7fr 7fr;
+}
+.content2 .courses{
+    text-align: center;
+}
+.content2 .courses h4{
+    color: #131416;
+    position: relative;
+    bottom: -45;
+    font-size: 25px;
+    font-family: Lexend;
+}
+.content2 .courses h2{
+    color: #131416;
+    font-size: 40px;
+    font-family: Lexend;
+}
+.content2 .courses p{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-family: Inter;
+    margin: auto;
+    width: 50%;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card img{
+    position: relative;
+    right: 5px;
+    width: 102%;
+    border-radius: 20px;
+}
+.card .gridItem{
+    padding: 0.5%;
+    padding-left: 5%;
+    padding-top: 0;
+}
+.card .gridItem:first-child{/*The div with image in card*/
+    padding: 0;
+    margin: auto;
+}
+.card{
+    transition: box-shadow 0.3s;
+    border-radius: 20px;
+    border: solid lightgray 1px;
+    /* margin: auto; */
+    margin: 5%;
+    display: grid;
+    height: 80%;
+    width: 90%;
+    grid-template-rows: 4fr 0.5fr 0.5fr 0.25fr 1fr;
+}
+.card:hover{
+    box-shadow: 
+        25px 0px 20px -20px rgba(0,0,0,0.45),
+        0px 25px 20px -20px rgba(0,0,0,0.45),
+        -25px 0px 20px -20px rgba(0,0,0,0.45);
+}
+.card .button{
+    position: relative;
+}
+.card .button a{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    width: 10%;
+    height: 115%;
+    z-index: 1;
+    top: -90;
+    right: 35px;
+}
+.card a div:hover{
+    /* transform: scale(1.2); */
+    transform: scale(1.1);
+}
+.card a div{
+    transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 15px #FCD75F;
+    color: black;
+    border-radius: 100px;
+    background-color: #FCD75F;
+    height: 100%;
+    width: 100%;
+}
+.card .list{
+    color: #7A7A7A;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.card .list i{
+    margin-right: 5%;
+    color: #FCD75F;
+}
+.card h2{
+    color: #131416;
+    font-family: lexend;
+    font-size: 32px;
+}
+.card p{
+    font-size: 16px;
+    color: #7A7A7A;
+}
+.video{
+    font-family: Inter;
+    position: relative;
+}
+.video::before{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../images/ecourse-template-courses-sample-video-img-bg.jpg");
+    background-repeat: no-repeat;
+    filter: brightness(0.4);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.video .grid{
+    font-family: Inter;
+    color: white;
+    margin: auto;
+    display: grid;
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+}
+.video .grid .info{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.video a{
+    text-decoration: none;
+}
+.video .info h1{
+    font-weight: 1000;
+}
+.video .info a div:hover,.beginner .button{
+    background-color: #FCD75F;
+}
+.video a div, .beginner .button {
+    transition: background-color 0.2s;
+    font:14px Inter;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    height: 40%;
+    border-radius: 20px;
+    color: black;
+}
+.video .play{
+    margin: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video h1{
+    font-size: 40px;
+    font-family: Lexend;
+}
+.video p{
+    color: white;
+    font-size: 17px;
+    font-family: Inter;
+}
+.video .play div{
+    background-color: black;
+    border: solid #FCD75F 1px;
+    color: #FCD75F;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 65px;
+    height: 65px;
+    transition: all 0.2s;
+}
+.video .play div:hover{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: #7A7A7A;
+}
+.beginner{
+    /* background-image: url(../images/ecourse-template-hero-gradient-bg.svg); */
+    background-repeat: no-repeat;
+}
+.beginner .grid{
+    margin: auto;
+    display: grid;
+    width: 70%;
+    font-family: Inter;
+    grid-template-rows: 3fr 1fr 0.5fr 1fr 1fr 1fr;
+}
+.beginner .grid .item1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.beginner .grid .item1 h2{
+    font-family: Lexend;
+    font-size: 40px;
+}
+.beginner .grid .item1 p{
+    font-size: 16px;
+}
+.beginner .button, .planCard .button, footer .button{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: #131416;
+    border: solid black 1px;
+}
+.beginner .button:hover, .planCard .button:hover{
+    color: black;
+    background-color: white;
+}
+.beginner .item2, .beginner .item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beginner .item3{
+    margin: auto;
+    width: 40%;
+}
+.beginner .item4{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.beginner .item4 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beginner .icon{
+    margin: auto;
+    background-color: #FCD75F;
+    width: 11%;
+    height: 30%;
+    border-radius: 100px;
+}
+.beginner .item4 p{
+    padding-right: 6%;
+}
+.pro{
+    margin: 1%;
+    padding: 1%;
+    border-right: lightgray solid 1px;
+}
+/* plans ------------------------------------------------------ */
+.plans{
+    margin: auto;
+    width: 70%;
+}
+.plans h2{
+    font-family: Lexend;
+    font-size: 40px;
+}
+.plans p{
+    font-family: Inter;
+    font-size: 16px;
+}
+.plans .head{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.plans .head .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planContainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.planCard{
+    margin: 20px;
+    padding-left: 20px;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #FCD75F;
+    position: relative;
+    background:linear-gradient(
+		to bottom,
+		#FCD75F 0%,
+		#FCD75F 36%,
+		white 36%,
+		white 100%
+	);
+    border: solid lightgray 1px;
+}
+.planCard .top h6{
+    font-size: 16px;
+    font-family: Inter;
+}
+.planCard .top{
+    height: 30%;
+    display: grid;
+    color: black;
+    padding: 0;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.planCard .bottom{
+    margin-top: 80px;
+    font-family: Inter;
+    color: #7A7A7A;
+}
+.planCard .bottom div{
+    margin: 15px;
+}
+.planCard .button{
+    position: absolute;
+    bottom: 20px;
+}
+.planCard .button a:hover{
+    color: black;
+}
+.unavailable{
+    opacity: 0.4;
+}
+.team{
+    color: white;
+    background:linear-gradient(
+		to bottom,
+		black 0%,
+		black 36%,
+		white 36%,
+		white 100%
+	);
+}
+.plans p{
+    font-size: 15px;
+}
+.team h6, .team h2, .team p{
+    color: white;
+}
+div a{
+    font-family: Inter;
+    margin-top: 10%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+/* Students------------------------------------------------------------------ */
+.students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    background-color: beige;
+}
+.students .grid{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr;
+}
+.students .reviewContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.students h2{
+    font-size: 40px;
+    font-family: Lexend;
+}
+#discription{
+    margin: auto;
+    font-size: 18px;
+    width: 50%;
+}
+.students .review{
+    text-align: left;
+    display: grid;
+    background-color: white;
+    border: solid lightgray 1px;
+    border-radius: 15px;
+    width: 80%;
+    padding: 5%;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    color: #131416;
+    font-size: 16px;
+    font-family: Inter;
+}
+.review p{
+    color: #131416;
+}
+.review i{
+    color: #FCD75F;
+}
+.review .name{
+    letter-spacing: 3px;
+}
+.review img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+.review .position{
+    color: #7A7A7A;
+}
+/* ---------------------------------------------- Footer */
+footer{
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: linear-gradient(
+        #FCD75F 0%,
+        #FCD75F 50%,
+        #131416 50%,
+        #131416 100%
+    );
+}
+footer .grid{
+    display: grid;
+    margin: auto;
+    grid-template-rows: 1fr 1fr;
+}
+footer .upper{
+    padding: 5%;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.upper h2{
+    font-family: Lexend;
+    font-size: 40px;
+}
+.upper p{
+    margin: auto;
+    font-size: 16px;
+    width: 60%;
+}
+footer .button:hover{
+    background-color: #FCD75F;
+    color: lightgray;
+    border-color: lightgray;
+}
+footer .button{
+    width: 200px;
+    margin: auto;
+}
+footer .lower{
+    color: white;
+
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.lower .copyright{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2%;
+}
+footer .column{
+    position: relative;
+    margin-top: 50px;
+    padding: 5%;
+}
+.copyright .image{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+footer .lower .button{
+    border: none;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 130px;
+}
+footer .lower .button:hover{
+    background-color: #131416;
+    color: lightgray;
+    border: solid #FCD75F 1px;
+}
+footer input{
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    padding: 1%;
+}
+footer .column div{
+    margin-bottom: 10px;
+}
+.privacy{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+footer .icons{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    color: white;
+}
+footer i{
+    padding: 10px;
+    padding-top: 0;
+}
+footer .col1{
+    width: 120%;
+}
+#footerHr{
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    color: lightgray;
+    opacity: 0.2;
+}
